@@ -46,6 +46,7 @@ body {
     }
 
     &__h2 {
+      // Can't use the parent selector in @extend
       @extend .container__h1;
       padding: f.cvrt_px(vars.$regular-padding);
       text-decoration: none;
